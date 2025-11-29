@@ -20,7 +20,7 @@ pipeline {
         // ------------------------------------------------------------------
         stage('1. Checkout Code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/prasanthdeva/CICD.git'
             }
         }
